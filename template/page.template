@@ -10,6 +10,81 @@
 		@input(template/footer.content)
 
 		<script src='js/app.min.js'></script>
+
+        <!-- Js files -->
+	<!-- JavaScript -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- Default-JavaScript-File -->
+
+	<!-- scripts required  for particle effect -->
+	<script src='js/particles.min.js'></script>
+	<script src="js/particles.js"></script>
+	<!-- //scripts required for particle effect -->
+
+	<!-- chart -->
+	<script src='js/amcharts.js'></script>
+	<script src='js/chart.js'></script>
+	<!-- //chart -->
+	<!-- //gallery-js -->
+
+	<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+	<!-- //stats -->
+
+	<!-- flexSlider (for testimonials) -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script>
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function (slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
+	<!-- //flexSlider (for testimonials) -->
+
+	<!-- animation js -->
+	<script src='js/aos.js'></script>
+	<script>
+		AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+
+    </script>
+	<!-- //animation js -->
+
+	<!-- smooth scrolling -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- move-top -->
+	<script src="js/move-top.js"></script>
+	<!-- easing -->
+	<script src="js/easing.js"></script>
+	<!--  necessary snippets for few javascript files -->
+	<script src="js/online-resume.js"></script>
+
+	<script src="js/bootstrap.js"></script>
+	<!-- Necessary-JavaScript-File-For-Bootstrap -->
+
+	<!-- gallery -->
+	<script src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+	<!-- light-box -->
+	<script>
+		$(function () {
+			$('.gallery a').Chocolat();
+		});
+	</script>
+	<!-- //light-box -->
+	<!-- //gallery -->
+	<!-- //Js files -->
     </body>
 </html>
 
