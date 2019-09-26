@@ -1,8 +1,8 @@
-<!-- Hero(extended) navbar -->
-<div class="navbar navbar--extended">
+<div class="mian-content">
+
 	@input(template/menu.content)
-</div>
-<div id="particles-js"></div>
+<!--  particles  -->
+		<div id="particles-js"></div>
 		<!-- //particles -->
 
 		<!-- banner -->
